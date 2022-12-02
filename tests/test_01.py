@@ -5,7 +5,7 @@ from aoc_2022 import day_01
 
 @pytest.fixture
 def data_01():
-    with open('data/input.txt') as f:
+    with open('data/day01/input.txt') as f:
         yield f.read()
 
 
