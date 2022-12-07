@@ -15,8 +15,8 @@ def test_06_1(data, output):
 
 @pytest.mark.parametrize(
     'data, output',
-    (['data/day06/example.txt', 7],
-     ['data/day06/input.txt', 1816]),
+    (['data/day06/example.txt', 19],
+     ['data/day06/input.txt', 2625]),
     indirect=['data']
 )
 def test_06_2(data, output):
